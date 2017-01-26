@@ -1,5 +1,7 @@
 package com.infiniteskills.spring.data.entities;
 
+import java.util.*;
+
 public class RentalLocation {
 
 	private Integer rentalLocationId;
@@ -16,6 +18,7 @@ public class RentalLocation {
 
 	private String postalCode;
 
+	private List <Media> media = new ArrayList<Media>();
 	public Integer getRentalLocationId() {
 		return rentalLocationId;
 	}
@@ -70,6 +73,13 @@ public class RentalLocation {
 
 	public void setPostalCode(String postalCode) {
 		this.postalCode = postalCode;
+	}
+	public List<Media> getMedia() {
+		return media;
+	}
+
+	public void setMedia(List<Media> media) {
+		this.media = media;
 	}
 
 }
