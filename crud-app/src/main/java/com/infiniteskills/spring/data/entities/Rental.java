@@ -5,17 +5,12 @@ import java.util.Date;
 public class Rental {
 
 	private Integer rentalId;
-
 	private Media media;
-
 	private RentalLocation pickupLocation;
-
 	private RentalLocation returnLocation;
-
 	private Date pickupDate;
-
 	private Date returnDate;
-
+	
 	public Integer getRentalId() {
 		return rentalId;
 	}
