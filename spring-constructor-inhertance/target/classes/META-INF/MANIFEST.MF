@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-bean-injection
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Hasan
+Implementation-Vendor-Id: com.example.spring
+Build-Jdk: 1.8.0_92
+Implementation-URL: http://projects.spring.io/spring-boot/spring-const
+ ructor-inhertance/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
